@@ -156,12 +156,7 @@ pests.push("marmot");
 pests.push("raccoon");
 
 var fears = new Array();
-fears.push("being eaten by");
-fears.push("being bitten by");
-fears.push("being killed by");
-fears.push("being licked by");
-fears.push("being alone with");
-fears.push("being watched by");
+fears.push("Ligma");
 
 var pets = new Array();
 pets.push("cat");
