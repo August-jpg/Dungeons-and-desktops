@@ -113,11 +113,8 @@ function generateHeroicQuests() {
 
 function generateQuests() {
 		for (var i = 0; i < 15; i++) {
-			quests.push("You <span class='xp'>slay " + getRandom(races) + " " + getRandom(classes) + "</span>! You earn <span class='coin'>#coin#</span>.");
-			quests.push("You <span class='xp'>slay a " + getRandom(prefixes) + " " + getRandom(pests) + "</span>! You earn <span class='coin'>#coin#</span>.");
-			quests.push("You <span class='xp'>gather some " + getRandom(gatherables) + " for " + getRandom(questgivers) + "</span>! You earn <span class='coin'>#coin#</span>.");
+			quests.push("You <span class='xp'>conquer your fear of " + getRandom(fears) + "</span>! You earn <span class='coin'>#coin#</span>.");
 		}
-		quests.push("You <span class='xp'>conquer your fear of " + getRandom(fears) + "</span>! You earn <span class='coin'>#coin#</span>.");
 }
 
 function getRandom(arr) {
